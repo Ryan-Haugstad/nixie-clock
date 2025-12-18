@@ -1278,6 +1278,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:MMBTA42"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBTA42"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN High Voltage Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBTA42_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBTA42_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_names
@@ -1535,69 +1740,101 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 53.34 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04642ddc-df39-41e7-9d29-c355ebb07cf5")
+	(rectangle
+		(start 138.43 52.07)
+		(end 161.29 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f0f6064-8489-4e44-9d27-a6d52f8056a8)
 	)
-	(junction
-		(at 127 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09c59cb9-d12f-4468-bb70-f2108bd9bfb2")
-	)
-	(junction
-		(at 52.07 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cf23ac4-3c8c-4d27-83a2-d62853477a98")
-	)
-	(junction
-		(at 127 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39207366-172f-4a04-8153-953cd4b375fc")
-	)
-	(junction
-		(at 127 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ed2d60d-6f43-43b5-b2db-9767c53c8ae7")
-	)
-	(junction
-		(at 54.61 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d37e57-4f8c-481a-929b-b0a789ab233e")
+	(text "4.7k resistors here"
+		(exclude_from_sim no)
+		(at 148.59 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a7612d7-a056-44b2-b61c-02c885edcc38")
 	)
 	(junction
 		(at 53.34 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
+		(uuid "04642ddc-df39-41e7-9d29-c355ebb07cf5")
+	)
+	(junction
+		(at 127 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c59cb9-d12f-4468-bb70-f2108bd9bfb2")
+	)
+	(junction
+		(at 52.07 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cf23ac4-3c8c-4d27-83a2-d62853477a98")
+	)
+	(junction
+		(at 127 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39207366-172f-4a04-8153-953cd4b375fc")
+	)
+	(junction
+		(at 127 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ed2d60d-6f43-43b5-b2db-9767c53c8ae7")
+	)
+	(junction
+		(at 54.61 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d37e57-4f8c-481a-929b-b0a789ab233e")
+	)
+	(junction
+		(at 53.34 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
 		(uuid "91d967ca-93ae-4de8-bb54-3bc007fc62cc")
 	)
 	(junction
-		(at 22.86 80.01)
+		(at 22.86 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99348f3f-022f-41dd-ae25-7634f104cb77")
 	)
 	(junction
-		(at 22.86 87.63)
+		(at 22.86 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6e6d065-39c0-4802-866a-34659d5471a1")
 	)
 	(junction
-		(at 127 152.4)
+		(at 127 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c01da6ba-245b-4153-be49-af7888650a24")
 	)
 	(wire
 		(pts
-			(xy 124.46 22.86) (xy 127 22.86)
+			(xy 168.91 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029f6138-5f3b-4880-a4eb-5a583ee82c02")
+	)
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1844,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 99.06) (xy 34.29 101.6)
+			(xy 226.06 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049c2a41-b264-4ac2-a7ac-de1b36cca151")
+	)
+	(wire
+		(pts
+			(xy 34.29 179.07) (xy 34.29 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 53.34 62.23)
+			(xy 52.07 142.24) (xy 53.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1627,133 +1874,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 62.23) (xy 54.61 62.23)
+			(xy 180.34 68.58) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0da76f87-11fa-4a9a-9ce8-f407b4febb37")
-	)
-	(wire
-		(pts
-			(xy 27.94 87.63) (xy 27.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fadffaf-5337-43f7-9baa-0ed141aa4f35")
-	)
-	(wire
-		(pts
-			(xy 22.86 72.39) (xy 22.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11787ce6-8460-4d2c-870b-11f4a91eccb0")
-	)
-	(wire
-		(pts
-			(xy 44.45 63.5) (xy 44.45 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178b5ffe-06a3-484f-84ab-d1a7efc7fcb5")
-	)
-	(wire
-		(pts
-			(xy 53.34 54.61) (xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "181291fc-bef7-4fb5-8a63-0c6fa0deb490")
-	)
-	(wire
-		(pts
-			(xy 54.61 142.24) (xy 54.61 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18941afe-ffce-4fd9-9965-edfdf7d13f2e")
-	)
-	(wire
-		(pts
-			(xy 117.9068 22.86) (xy 117.9068 23.6728)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "205f03e6-627e-4201-9580-cc45a4ea2ab6")
-	)
-	(wire
-		(pts
-			(xy 34.29 93.98) (xy 34.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241c6cf5-d3c8-4911-aa9c-44e293a7a0b2")
-	)
-	(wire
-		(pts
-			(xy 20.32 80.01) (xy 22.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ae404e-be9c-4705-abae-78d2afdf5f48")
-	)
-	(wire
-		(pts
-			(xy 52.07 142.24) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4149d899-6188-4f68-bb3c-c7dcb7a9d808")
-	)
-	(wire
-		(pts
-			(xy 118.11 66.04) (xy 118.11 66.8528)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc59980-2e5a-42cb-b531-3a4dfca701b6")
-	)
-	(wire
-		(pts
-			(xy 34.29 91.44) (xy 36.83 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6223c79f-ad72-481b-a27a-105388c03b5b")
-	)
-	(wire
-		(pts
-			(xy 127 22.86) (xy 127 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630df42d-a075-40ea-b3ec-44234cbc2229")
+		(uuid "0a6f3ba9-4e0c-4bdc-b327-ad1e9160f6a8")
 	)
 	(wire
 		(pts
@@ -1763,11 +1890,261 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "0da76f87-11fa-4a9a-9ce8-f407b4febb37")
+	)
+	(wire
+		(pts
+			(xy 27.94 167.64) (xy 27.94 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fadffaf-5337-43f7-9baa-0ed141aa4f35")
+	)
+	(wire
+		(pts
+			(xy 22.86 152.4) (xy 22.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11787ce6-8460-4d2c-870b-11f4a91eccb0")
+	)
+	(wire
+		(pts
+			(xy 187.96 135.89) (xy 187.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b32be9-08de-45e7-823e-0f77e5403aea")
+	)
+	(wire
+		(pts
+			(xy 44.45 143.51) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178b5ffe-06a3-484f-84ab-d1a7efc7fcb5")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181291fc-bef7-4fb5-8a63-0c6fa0deb490")
+	)
+	(wire
+		(pts
+			(xy 54.61 222.25) (xy 54.61 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18941afe-ffce-4fd9-9965-edfdf7d13f2e")
+	)
+	(wire
+		(pts
+			(xy 117.9068 46.99) (xy 117.9068 47.8028)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205f03e6-627e-4201-9580-cc45a4ea2ab6")
+	)
+	(wire
+		(pts
+			(xy 34.29 173.99) (xy 34.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241c6cf5-d3c8-4911-aa9c-44e293a7a0b2")
+	)
+	(wire
+		(pts
+			(xy 157.48 22.86) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cd4c55-17f1-4847-93c8-5428459806f7")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e58b53f-317e-4c4a-b5ca-112d3002566f")
+	)
+	(wire
+		(pts
+			(xy 20.32 160.02) (xy 22.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ae404e-be9c-4705-abae-78d2afdf5f48")
+	)
+	(wire
+		(pts
+			(xy 233.68 176.53) (xy 233.68 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e911acf-b772-44ac-bd31-9e880ba2df1a")
+	)
+	(wire
+		(pts
+			(xy 52.07 222.25) (xy 53.34 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4149d899-6188-4f68-bb3c-c7dcb7a9d808")
+	)
+	(wire
+		(pts
+			(xy 199.39 146.05) (xy 199.39 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f9eba4-9b5e-49c7-a455-3ffb28cb252a")
+	)
+	(wire
+		(pts
+			(xy 222.25 166.37) (xy 222.25 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495e7862-2503-45ba-b215-04fb54731d98")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 118.11 124.0028)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc59980-2e5a-42cb-b531-3a4dfca701b6")
+	)
+	(wire
+		(pts
+			(xy 210.82 156.21) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd1d8ec-dbe5-4c3f-b7b6-bfdc961a326f")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f364086-56b1-4a12-8770-1fc9105190e2")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f82ced7-ee53-46db-89a8-8ba7faf68d97")
+	)
+	(wire
+		(pts
+			(xy 222.25 78.74) (xy 222.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607d212a-2d9c-46f0-b760-ba3ef5d5d4c7")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 36.83 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6223c79f-ad72-481b-a27a-105388c03b5b")
+	)
+	(wire
+		(pts
+			(xy 127 46.99) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630df42d-a075-40ea-b3ec-44234cbc2229")
+	)
+	(wire
+		(pts
+			(xy 237.49 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6424d19f-5518-48b4-a361-4a8b9e22df55")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d7cfe8-2592-4d4c-858b-cf96961e53f3")
+	)
+	(wire
+		(pts
+			(xy 53.34 222.25) (xy 54.61 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "6646a8f2-59ff-4ff1-aa96-33b424b0a2fc")
 	)
 	(wire
 		(pts
-			(xy 22.86 80.01) (xy 27.94 80.01)
+			(xy 22.86 160.02) (xy 27.94 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127 153.67)
+			(xy 127 285.75) (xy 127 287.02)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 109.22) (xy 118.11 110.0328)
+			(xy 118.11 209.55) (xy 118.11 210.3628)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 87.63) (xy 27.94 87.63)
+			(xy 22.86 167.64) (xy 27.94 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +2184,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.6632 66.04) (xy 127 66.04)
+			(xy 137.16 63.5) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0a1b79-8e2a-4171-9769-c4a0bed0fc65")
+	)
+	(wire
+		(pts
+			(xy 124.6632 123.19) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 53.34 144.78)
+			(xy 53.34 222.25) (xy 53.34 224.79)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 62.23) (xy 52.07 62.23)
+			(xy 50.8 142.24) (xy 52.07 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +2224,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127 110.49)
+			(xy 165.1 115.57) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8171de88-4388-4d10-be38-c0710f11f728")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.9) (xy 233.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8294f105-ec5d-48e9-90df-b73121d29f24")
+	)
+	(wire
+		(pts
+			(xy 127 209.55) (xy 127 210.82)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +2254,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 152.4) (xy 118.11 153.2128)
+			(xy 118.11 285.75) (xy 118.11 286.5628)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +2264,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 127 67.31)
+			(xy 180.34 43.18) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8b3477-93e3-46c5-bed0-58d7abc83fa1")
+	)
+	(wire
+		(pts
+			(xy 127 123.19) (xy 127 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 92.71) (xy 22.86 95.25)
+			(xy 22.86 172.72) (xy 22.86 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127.2032 109.22)
+			(xy 127 209.55) (xy 127.2032 209.55)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 62.23) (xy 54.61 68.58)
+			(xy 54.61 142.24) (xy 54.61 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +2314,27 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 62.23) (xy 55.88 62.23)
+			(xy 165.1 27.94) (xy 165.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a753c29-8562-4d2c-82db-cc60af177a80")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 176.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae79a24-2364-47dc-a163-ae2dcb832a9d")
+	)
+	(wire
+		(pts
+			(xy 54.61 142.24) (xy 55.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1907,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 22.86) (xy 117.9068 22.86)
+			(xy 119.38 46.99) (xy 117.9068 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +2354,37 @@
 	)
 	(wire
 		(pts
-			(xy 124.6632 152.4) (xy 127 152.4)
+			(xy 176.53 125.73) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4db42b7-9632-47ea-87e4-8ebc8de22179")
+	)
+	(wire
+		(pts
+			(xy 137.16 66.04) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5185689-f981-44dd-9ea6-72bcd74e7371")
+	)
+	(wire
+		(pts
+			(xy 245.11 187.96) (xy 247.65 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55ce537-7638-40d4-a6cf-580baf56f253")
+	)
+	(wire
+		(pts
+			(xy 124.6632 285.75) (xy 127 285.75)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 127.2032 66.04)
+			(xy 127 123.19) (xy 127.2032 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +2404,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 127.2032 152.4)
+			(xy 245.11 99.06) (xy 245.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac492146-ec96-4454-893f-c34ac6ec3273")
+	)
+	(wire
+		(pts
+			(xy 127 285.75) (xy 127.2032 285.75)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +2424,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 139.7) (xy 52.07 142.24)
+			(xy 245.11 186.69) (xy 245.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56bb5f0-41a3-4d9e-b3c8-6ea053401633")
+	)
+	(wire
+		(pts
+			(xy 214.63 73.66) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8129a43-b9c2-422f-849e-1eed91c686d9")
+	)
+	(wire
+		(pts
+			(xy 52.07 219.71) (xy 52.07 222.25)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 86.36) (xy 36.83 86.36)
+			(xy 27.94 166.37) (xy 36.83 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2464,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 62.23) (xy 62.23 62.23)
+			(xy 191.77 53.34) (xy 191.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c423a22c-6c9c-4259-9ff3-baa38e59ff44")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 62.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.5832 152.4) (xy 118.11 152.4)
+			(xy 119.5832 285.75) (xy 118.11 285.75)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.5832 66.04) (xy 118.11 66.04)
+			(xy 119.5832 123.19) (xy 118.11 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 87.63) (xy 22.86 87.63)
+			(xy 20.32 167.64) (xy 22.86 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 81.28) (xy 36.83 81.28)
+			(xy 27.94 161.29) (xy 36.83 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2017,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 62.23) (xy 62.23 63.5)
+			(xy 62.23 142.24) (xy 62.23 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 62.23) (xy 45.72 62.23)
+			(xy 44.45 142.24) (xy 45.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2544,37 @@
 	)
 	(wire
 		(pts
-			(xy 124.6632 109.22) (xy 127 109.22)
+			(xy 168.91 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded8247c-6380-4399-864d-363a1b3a34ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 68.58) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df33bb2f-eb39-44e0-a8fd-36834618ab43")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cd58c6-35c4-402c-82c8-73a8c9e3da7f")
+	)
+	(wire
+		(pts
+			(xy 124.6632 209.55) (xy 127 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 68.58)
+			(xy 52.07 142.24) (xy 52.07 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2594,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 80.01) (xy 27.94 81.28)
+			(xy 168.91 33.02) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee959ccb-6898-485d-ab36-019d28abc5ca")
+	)
+	(wire
+		(pts
+			(xy 27.94 160.02) (xy 27.94 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2614,27 @@
 	)
 	(wire
 		(pts
-			(xy 119.5832 109.22) (xy 118.11 109.22)
+			(xy 137.16 60.96) (xy 191.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50e8916-a84e-4a54-8cb9-2d6af71bdd48")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b0f098-0d3d-4672-ba40-55bfdf967a54")
+	)
+	(wire
+		(pts
+			(xy 119.5832 209.55) (xy 118.11 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2075,9 +2642,85 @@
 		)
 		(uuid "fadb28f6-dc92-4e0c-85fd-0e7a356c2ba0")
 	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff274920-febf-41a2-8a02-a52dc18d7a65")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 245.11 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008a9cd7-66a5-4d1b-8eef-5d8973532e6c")
+		(property "Reference" "#PWR027"
+			(at 245.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bf93a1b-0635-4f91-8099-1b0d0f908008")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 122.1232 152.4 270)
+		(at 122.1232 285.75 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2087,7 +2730,7 @@
 		(fields_autoplaced yes)
 		(uuid "039572e1-9366-426f-a7e0-73a506062c11")
 		(property "Reference" "C9"
-			(at 122.1169 147.32 90)
+			(at 122.1169 280.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2738,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.1169 149.86 90)
+			(at 122.1169 283.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.1232 152.4 0)
+			(at 122.1232 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.1232 152.4 0)
+			(at 122.1232 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.1232 152.4 0)
+			(at 122.1232 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2772,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 122.1232 152.4 90)
+			(at 122.1232 285.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2797,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 122.1232 109.22 270)
+		(at 122.1232 209.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2164,7 +2807,7 @@
 		(fields_autoplaced yes)
 		(uuid "098e9d34-3fd8-4bb3-8cb1-98978ea8eb43")
 		(property "Reference" "C8"
-			(at 122.1169 104.14 90)
+			(at 122.1169 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2815,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.1169 106.68 90)
+			(at 122.1169 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.1232 109.22 0)
+			(at 122.1232 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.1232 109.22 0)
+			(at 122.1232 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.1232 109.22 0)
+			(at 122.1232 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2849,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 122.1232 109.22 90)
+			(at 122.1232 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,8 +2873,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 222.25 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c04b02c-65b0-4e3a-aae1-fafe9e590dc9")
+		(property "Reference" "#PWR033"
+			(at 222.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 222.25 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08e9a82e-3caa-41fe-b952-b7e4aed18557")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 122.1232 66.04 270)
+		(at 122.1232 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2241,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d9d8f23-5169-461a-aee4-0e98ed56d89c")
 		(property "Reference" "C7"
-			(at 122.1169 60.96 90)
+			(at 122.1169 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2958,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.1169 63.5 90)
+			(at 122.1169 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.1232 66.04 0)
+			(at 122.1232 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +2975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.1232 66.04 0)
+			(at 122.1232 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.1232 66.04 0)
+			(at 122.1232 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2992,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 122.1232 66.04 90)
+			(at 122.1232 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,8 +3016,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 162.56 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "156be07a-2e4e-4bd6-91ae-ba960b8da200")
+		(property "Reference" "Q9"
+			(at 167.64 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 152.654 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 167.64 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "616855c2-380b-4474-8381-4ce54779b9fb")
+		)
+		(pin "1"
+			(uuid "17db721a-e729-4ccd-a156-29d06fd9dfe2")
+		)
+		(pin "2"
+			(uuid "c0c78cbe-139f-42ec-a160-3826dec35ee6")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 118.11 110.0328 0)
+		(at 118.11 210.3628 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2318,7 +3102,7 @@
 		(fields_autoplaced yes)
 		(uuid "19804f6e-71f9-4055-b16e-d954fdde4ff4")
 		(property "Reference" "#PWR014"
-			(at 118.11 116.3828 0)
+			(at 118.11 216.7128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +3111,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 118.11 115.1128 0)
+			(at 118.11 215.4428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +3120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 110.0328 0)
+			(at 118.11 210.3628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +3129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 110.0328 0)
+			(at 118.11 210.3628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +3138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 110.0328 0)
+			(at 118.11 210.3628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,8 +3158,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 231.14 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19b1269b-c92e-4915-8255-ba455c9be168")
+		(property "Reference" "Q15"
+			(at 236.22 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 221.234 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 236.22 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 231.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 231.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82589b02-59aa-4d41-9025-c4e55ab6c2ca")
+		)
+		(pin "1"
+			(uuid "320f3d75-c78d-4710-a212-9df80444c56a")
+		)
+		(pin "2"
+			(uuid "9500e287-352a-4c16-930a-e8417a253f23")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 34.29 101.6 0)
+		(at 34.29 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2384,7 +3243,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e291dfe-96e7-4937-b590-a8478c2f90f9")
 		(property "Reference" "#PWR01"
-			(at 34.29 107.95 0)
+			(at 34.29 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +3252,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 34.29 106.68 0)
+			(at 34.29 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +3261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 101.6 0)
+			(at 34.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +3270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 101.6 0)
+			(at 34.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +3279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 101.6 0)
+			(at 34.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,33 +3299,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 48.26 62.23 90)
+		(lib_id "power:GNDREF")
+		(at 247.65 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32934bae-895c-43ec-bc49-725ea18f5a71")
-		(property "Reference" "C1"
-			(at 48.2663 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 48.2663 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 62.23 0)
+		(uuid "29cc9919-5462-44c6-8e7f-3938724d25c0")
+		(property "Reference" "#PWR035"
+			(at 247.65 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,8 +3317,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 48.26 62.23 0)
+		(property "Value" "GNDREF"
+			(at 247.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +3345,146 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 62.23 0)
+			(at 247.65 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0686b50e-5a5f-446b-a201-a66dfcbe836b")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 208.28 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32048933-5d54-4234-8845-cd6763a0a11f")
+		(property "Reference" "Q5"
+			(at 213.36 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 198.374 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 213.36 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8949d8dd-c4e4-4ac6-be54-46b6220a8768")
+		)
+		(pin "1"
+			(uuid "33d27788-49f9-4926-96b4-5dad3bdc0f14")
+		)
+		(pin "2"
+			(uuid "060cf415-0804-43c5-a4f1-1d91512fda6d")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 48.26 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32934bae-895c-43ec-bc49-725ea18f5a71")
+		(property "Reference" "C1"
+			(at 48.2663 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 48.2663 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,8 +3507,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 231.14 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34af8618-df60-4b51-8479-57ecd5f11db3")
+		(property "Reference" "Q7"
+			(at 236.22 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 221.234 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 236.22 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9472e3fa-6792-43ee-91d2-b6e0340b0cea")
+		)
+		(pin "1"
+			(uuid "806107fe-89b5-471b-9a81-6e1ea63a7c8c")
+		)
+		(pin "2"
+			(uuid "91d3be93-95f9-4275-944e-a6372ec4cb70")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 22.86 77.47 180)
+		(at 22.86 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2516,7 +3591,7 @@
 		(dnp no)
 		(uuid "36ecd8af-6d33-4adf-8da9-48964b9b02a7")
 		(property "Reference" "C5"
-			(at 25.4 74.93 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +3600,7 @@
 			)
 		)
 		(property "Value" "18pF"
-			(at 25.4 77.47 0)
+			(at 25.4 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +3609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 77.47 0)
+			(at 22.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +3618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 77.47 0)
+			(at 22.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +3627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 77.47 0)
+			(at 22.86 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,8 +3650,308 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 208.28 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3930f993-b2ed-4826-a951-cf1a71c79b85")
+		(property "Reference" "Q13"
+			(at 213.36 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 198.374 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 213.36 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5a6aa7a5-0127-41cf-8ef4-f435bee9d6ea")
+		)
+		(pin "1"
+			(uuid "df4e96ba-d05a-466f-982d-e2cebc8c8550")
+		)
+		(pin "2"
+			(uuid "57456216-4116-4c65-b165-750792ab63f2")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 185.42 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4304178e-7318-4e03-817a-30d5309918eb")
+		(property "Reference" "Q11"
+			(at 190.5 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 175.514 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 190.5 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "91d66a54-fcba-4bd9-b0a2-c7107cc194d1")
+		)
+		(pin "1"
+			(uuid "86a11b6f-8869-44ef-a3c8-26c0291ff9e0")
+		)
+		(pin "2"
+			(uuid "ca0ab853-6aec-4fb7-b3bf-027b350f4d47")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 173.99 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4370c2bd-fcab-4fcc-8bc5-2f33da9e1982")
+		(property "Reference" "Q10"
+			(at 179.07 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 164.084 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 179.07 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "707bb1e6-5ee2-4692-8ede-e71cf2314204")
+		)
+		(pin "1"
+			(uuid "2f1aa423-5ae1-428e-b2f9-c94b2ac5938e")
+		)
+		(pin "2"
+			(uuid "8ab3e369-6624-4460-8ab2-7b2315b46044")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 219.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c3775e-287e-42b0-8b6f-91e07685a1e1")
+		(property "Reference" "Q6"
+			(at 224.79 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 209.804 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 224.79 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "55c2bfcd-d35e-4fdf-9545-8d6080c69ebc")
+		)
+		(pin "1"
+			(uuid "0e4894db-d4f2-4737-90d4-9b0da97208d9")
+		)
+		(pin "2"
+			(uuid "2cb68d32-fe3f-441a-b1fd-c5eaad9fbb18")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega8L-8P")
-		(at 52.07 104.14 0)
+		(at 52.07 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2585,7 +3960,7 @@
 		(fields_autoplaced yes)
 		(uuid "48348438-9551-4683-be7c-dba9916afe9a")
 		(property "Reference" "U1"
-			(at 56.5659 67.31 0)
+			(at 56.5659 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +3969,7 @@
 			)
 		)
 		(property "Value" "ATmega8L-8P"
-			(at 56.5659 69.85 0)
+			(at 56.5659 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +3978,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 52.07 104.14 0)
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf"
-			(at 52.07 104.14 0)
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +3997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 104.14 0)
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +4099,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 34.29 96.52 180)
+		(at 34.29 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2732,7 +4107,7 @@
 		(dnp no)
 		(uuid "4a1af754-0209-41c5-a47d-8efbd1067ea9")
 		(property "Reference" "C3"
-			(at 27.94 96.52 0)
+			(at 27.94 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +4116,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 27.94 99.06 0)
+			(at 27.94 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +4125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 96.52 0)
+			(at 34.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 96.52 0)
+			(at 34.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +4143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 96.52 0)
+			(at 34.29 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,36 +4166,17 @@
 		)
 	)
 	(symbol
-		(lib_name "74AHC595_1")
-		(lib_id "74xx:74AHC595")
-		(at 127 168.91 0)
+		(lib_id "power:GNDREF")
+		(at 233.68 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56f16ed4-6a30-4e6d-9e79-b6fa5f329197")
-		(property "Reference" "U5"
-			(at 128.9559 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74AHC595"
-			(at 128.9559 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 127 168.91 0)
+		(uuid "4cc394ce-9c39-403e-af1b-51055d198aae")
+		(property "Reference" "#PWR034"
+			(at 233.68 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,8 +4184,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
-			(at 127 168.91 0)
+		(property "Value" "GNDREF"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +4212,290 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 168.91 0)
+			(at 233.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60cac074-a2f5-4959-8d42-7fd0e68bcd57")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 242.57 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54ae44a7-5d78-4f81-a985-d46dc4f5a6e5")
+		(property "Reference" "Q16"
+			(at 247.65 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 232.664 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 247.65 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 242.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 242.57 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d7420d0-0aac-45f1-aba5-9f752d575445")
+		)
+		(pin "1"
+			(uuid "d80e0a9a-ff3d-42c6-b833-f5596ebbaebc")
+		)
+		(pin "2"
+			(uuid "9e7d08a3-1c12-496f-9feb-a1cc81483431")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 187.96 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e4503c-4b97-468c-aaa0-867ff47df24d")
+		(property "Reference" "#PWR030"
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0821849-bc01-4d44-b38f-abc2915e6339")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 185.42 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b66fba-7d39-43ea-a4f8-9b05b10e50d4")
+		(property "Reference" "Q3"
+			(at 190.5 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 175.514 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 190.5 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fb61d35-ed0b-4cbc-b883-fc83396a33d3")
+		)
+		(pin "1"
+			(uuid "5c390112-6a17-4562-8fb1-4f429e8516d9")
+		)
+		(pin "2"
+			(uuid "b04a7cb8-034f-4e92-8819-22373d0e4e05")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74AHC595_1")
+		(lib_id "74xx:74AHC595")
+		(at 127 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f16ed4-6a30-4e6d-9e79-b6fa5f329197")
+		(property "Reference" "U5"
+			(at 128.9559 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 128.9559 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 127 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 127 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,34 +4560,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 22.86 90.17 180)
+		(lib_id "power:GNDREF")
+		(at 187.96 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5866370e-cd28-44f1-b4e3-7b6ed39ec6d8")
-		(property "Reference" "C4"
-			(at 25.4 89.5286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "18pF"
-			(at 25.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 90.17 0)
+		(fields_autoplaced yes)
+		(uuid "57bcf680-8202-4cb6-b951-1f884fb12477")
+		(property "Reference" "#PWR022"
+			(at 187.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,8 +4578,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 22.86 90.17 0)
+		(property "Value" "GNDREF"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +4606,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 90.17 0)
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82849b7c-93ba-4864-8058-e6cddb938f71")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 22.86 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5866370e-cd28-44f1-b4e3-7b6ed39ec6d8")
+		(property "Reference" "C4"
+			(at 25.4 169.5386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "18pF"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +4695,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 53.34 54.61 0)
+		(at 53.34 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2981,7 +4704,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a73bacc-5544-49e5-9515-2feb401ca3e4")
 		(property "Reference" "#PWR05"
-			(at 53.34 58.42 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +4713,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 53.34 50.8 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 54.61 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +4730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 54.61 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +4739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 54.61 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +4760,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 62.23 63.5 0)
+		(at 62.23 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3046,7 +4769,7 @@
 		(fields_autoplaced yes)
 		(uuid "60471df3-b228-43b6-921d-1a7dac843e43")
 		(property "Reference" "#PWR03"
-			(at 62.23 69.85 0)
+			(at 62.23 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +4778,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 62.23 68.58 0)
+			(at 62.23 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +4787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 63.5 0)
+			(at 62.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +4796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 63.5 0)
+			(at 62.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +4805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 63.5 0)
+			(at 62.23 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +4826,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 127 143.51 0)
+		(at 127 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +4835,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aff010c-3043-4119-b5b5-be39f554dec0")
 		(property "Reference" "#PWR016"
-			(at 127 149.86 0)
+			(at 127 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +4844,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 127 148.59 0)
+			(at 127 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 143.51 0)
+			(at 127 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +4862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 143.51 0)
+			(at 127 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +4871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 143.51 0)
+			(at 127 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,8 +4891,365 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 173.99 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ba73ff0-c03c-4fff-a153-aa53aee4e5fb")
+		(property "Reference" "Q2"
+			(at 179.07 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 164.084 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 179.07 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 173.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 173.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90b59072-be81-4be4-8bea-27c35beb8915")
+		)
+		(pin "1"
+			(uuid "bb4ba789-f5e4-4586-9580-9135916ef56d")
+		)
+		(pin "2"
+			(uuid "93594333-1825-4d68-97bd-a7e1ce82bddd")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 118.11 153.2128 0)
+		(at 199.39 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df6ffc9-8e33-4832-9d45-7e0f9abfc8a6")
+		(property "Reference" "#PWR031"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00aa8ebb-2524-4056-8cab-364c07fda70c")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 196.85 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74899e9a-3bc8-48ff-93e5-3cf450d25c1c")
+		(property "Reference" "Q4"
+			(at 201.93 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 186.944 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 201.93 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "15ebf0f1-63fe-4bbf-a144-add06e0bb8c5")
+		)
+		(pin "1"
+			(uuid "069fc08a-0f6d-4180-b56e-e2bcf5e81ffd")
+		)
+		(pin "2"
+			(uuid "b99e5262-1847-4dbd-90f6-ac51011a34e2")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 165.1 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7739f2e3-c71c-4aaf-8246-75b4439c328f")
+		(property "Reference" "#PWR028"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bc2855e-e83c-4247-a2cd-2e650ffa61d7")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 196.85 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7916cdcf-4c9c-4402-8a90-578ba5bf1cd5")
+		(property "Reference" "Q12"
+			(at 201.93 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 186.944 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 201.93 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "16e62761-33fe-41e8-8510-f546d3c2521c")
+		)
+		(pin "1"
+			(uuid "6de51f75-5005-4a4f-9a99-06a1f4d47cbf")
+		)
+		(pin "2"
+			(uuid "d641610d-3fdf-4ab9-99e2-abf3bff11b9a")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 118.11 286.5628 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3179,7 +5259,7 @@
 		(fields_autoplaced yes)
 		(uuid "7acd1e1c-0035-4b57-a86b-fd06246f0426")
 		(property "Reference" "#PWR017"
-			(at 118.11 159.5628 0)
+			(at 118.11 292.9128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +5268,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 118.11 158.2928 0)
+			(at 118.11 291.6428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +5277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 153.2128 0)
+			(at 118.11 286.5628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +5286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 153.2128 0)
+			(at 118.11 286.5628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +5295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 153.2128 0)
+			(at 118.11 286.5628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,34 +5315,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 20.32 83.82 90)
+		(lib_id "power:GNDREF")
+		(at 176.53 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86aba254-0118-4c7c-a5fc-7a34f0296c39")
-		(property "Reference" "Y1"
-			(at 16.51 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "8 MHz Crystal"
-			(at 17.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_HC49-U_Horizontal"
-			(at 20.32 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "82113a5e-23d7-4ea4-8aab-611a8433b944")
+		(property "Reference" "#PWR029"
+			(at 176.53 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,8 +5333,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 20.32 83.82 0)
+		(property "Value" "GNDREF"
+			(at 176.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +5361,138 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 83.82 0)
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b443d88a-6e8f-4c27-bd79-9415b84b24a8")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 176.53 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8375200b-7e92-48a1-9393-2d1fc5940b66")
+		(property "Reference" "#PWR021"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e775fca9-61e4-48b9-9405-8aa7e44d4fd2")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 20.32 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86aba254-0118-4c7c-a5fc-7a34f0296c39")
+		(property "Reference" "Y1"
+			(at 16.51 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8 MHz Crystal"
+			(at 17.78 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_HC49-U_Horizontal"
+			(at 20.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +5516,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 22.86 72.39 180)
+		(at 22.86 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3313,7 +5525,7 @@
 		(fields_autoplaced yes)
 		(uuid "89fe21a2-c724-4488-80ec-aac24e5a23a4")
 		(property "Reference" "#PWR07"
-			(at 22.86 66.04 0)
+			(at 22.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +5534,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 22.86 68.58 0)
+			(at 22.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +5543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 72.39 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +5552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 72.39 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +5561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 72.39 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +5582,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 53.34 144.78 0)
+		(at 53.34 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3379,7 +5591,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cb52341-fe1a-4239-9442-9a77b3f54d52")
 		(property "Reference" "#PWR04"
-			(at 53.34 151.13 0)
+			(at 53.34 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +5600,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 53.34 149.86 0)
+			(at 53.34 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +5608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 144.78 0)
+			(at 53.34 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +5617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 144.78 0)
+			(at 53.34 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +5626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 144.78 0)
+			(at 53.34 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,16 +5647,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 44.45 63.5 0)
+		(at 210.82 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9dc29736-0dd1-4290-a8d5-0ce31bfcc605")
-		(property "Reference" "#PWR02"
-			(at 44.45 69.85 0)
+		(uuid "98a2d814-ee23-430c-bf6d-79695cfb04fd")
+		(property "Reference" "#PWR032"
+			(at 210.82 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +5665,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 44.45 68.58 0)
+			(at 210.82 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +5674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 63.5 0)
+			(at 210.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +5683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 63.5 0)
+			(at 210.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +5692,148 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 63.5 0)
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fe392af-9b89-4ab8-a432-8aabae4ae642")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 162.56 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99f8e343-e27f-49b8-821e-3e0b7e1619d5")
+		(property "Reference" "Q1"
+			(at 167.64 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 152.654 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 167.64 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a929b606-5ea7-4d6e-965e-106ab34a2dc6")
+		)
+		(pin "1"
+			(uuid "e67a2e4f-3b73-44e7-a8ce-c0dc99f787df")
+		)
+		(pin "2"
+			(uuid "cc684a28-33e5-4813-a59b-107a9f9d3a4d")
+		)
+		(instances
+			(project ""
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 44.45 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc29736-0dd1-4290-a8d5-0ce31bfcc605")
+		(property "Reference" "#PWR02"
+			(at 44.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,8 +5853,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 242.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1d34c85-0f14-429c-81be-53c4dddad063")
+		(property "Reference" "Q8"
+			(at 247.65 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 232.664 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 247.65 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d9bbf234-1299-4edc-9683-c01b637a51b4")
+		)
+		(pin "1"
+			(uuid "242a480c-b4f7-465a-b7c8-26cb0d520fbb")
+		)
+		(pin "2"
+			(uuid "56a1acd5-7cd4-4616-b469-3bdee9bc68b8")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
-		(at 127 22.86 0)
+		(at 127 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3510,7 +5938,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d9619c-b441-4e8d-a2cf-b18eb842dfde")
 		(property "Reference" "#PWR010"
-			(at 127 26.67 0)
+			(at 127 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +5947,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 127 19.05 0)
+			(at 127 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +5955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 22.86 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 22.86 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +5973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 22.86 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,36 +5993,17 @@
 		)
 	)
 	(symbol
-		(lib_name "74AHC595_1")
-		(lib_id "74xx:74AHC595")
-		(at 127 82.55 0)
+		(lib_id "power:GNDREF")
+		(at 165.1 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b46a6b7b-8347-4a9d-a4af-4a310822e9dd")
-		(property "Reference" "U3"
-			(at 128.9559 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74AHC595"
-			(at 128.9559 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 127 82.55 0)
+		(uuid "abe6ae05-7855-4e5f-8f41-7a32c377f60d")
+		(property "Reference" "#PWR020"
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,8 +6011,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
-			(at 127 82.55 0)
+		(property "Value" "GNDREF"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3612,7 +6039,140 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 82.55 0)
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208c9dea-7c02-4dcd-8e50-4f27fc7ce638")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 233.68 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2ec0330-5539-4308-9c8e-f6a21272c8ea")
+		(property "Reference" "#PWR026"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "072fac76-f548-4a1d-8acf-fefd579ba2d1")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74AHC595_1")
+		(lib_id "74xx:74AHC595")
+		(at 127 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46a6b7b-8347-4a9d-a4af-4a310822e9dd")
+		(property "Reference" "U3"
+			(at 128.9559 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AHC595"
+			(at 128.9559 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,17 +6237,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 127 109.22 0)
+		(lib_id "power:GNDREF")
+		(at 222.25 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9344c3b-a0ca-46c9-be06-57978dd2e505")
-		(property "Reference" "#PWR015"
-			(at 127 113.03 0)
+		(uuid "b74f8d04-416e-4ee7-8cda-2981698e210a")
+		(property "Reference" "#PWR025"
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,16 +6255,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 127 105.41 0)
+		(property "Value" "GNDREF"
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 127 109.22 0)
+			(at 222.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +6274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 109.22 0)
+			(at 222.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +6283,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 109.22 0)
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de833f98-5ba9-4c0b-b625-c81252f2d879")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 127 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9344c3b-a0ca-46c9-be06-57978dd2e505")
+		(property "Reference" "#PWR015"
+			(at 127 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,16 +6369,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 22.86 95.25 0)
+		(at 210.82 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c04b78fb-07a0-4354-b15c-38213c88da41")
-		(property "Reference" "#PWR06"
-			(at 22.86 101.6 0)
+		(uuid "bb631ed9-630f-48ca-a0fc-0ca50470a08c")
+		(property "Reference" "#PWR024"
+			(at 210.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +6387,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 22.86 100.33 0)
+			(at 210.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +6396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 95.25 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +6405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 95.25 0)
+			(at 210.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +6414,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 95.25 0)
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccb282e1-01e6-4118-a7f9-74de0fd1cefe")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 22.86 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c04b78fb-07a0-4354-b15c-38213c88da41")
+		(property "Reference" "#PWR06"
+			(at 22.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 22.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +6501,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 127 186.69 0)
+		(at 127 320.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3818,7 +6510,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b9e862-b9c0-421d-9c6a-173b6d844bda")
 		(property "Reference" "#PWR019"
-			(at 127 193.04 0)
+			(at 127 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +6519,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 127 191.77 0)
+			(at 127 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +6528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 186.69 0)
+			(at 127 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +6537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 186.69 0)
+			(at 127 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +6546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 186.69 0)
+			(at 127 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +6567,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 22.86 270)
+		(at 121.92 46.99 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3885,7 +6577,7 @@
 		(fields_autoplaced yes)
 		(uuid "c397a853-3a69-4f84-9831-89128ca3bd61")
 		(property "Reference" "C6"
-			(at 121.9137 17.78 90)
+			(at 121.9137 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +6585,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.9137 20.32 90)
+			(at 121.9137 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +6593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 22.86 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +6602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 22.86 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +6611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 22.86 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +6619,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 121.92 22.86 90)
+			(at 121.92 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,9 +6643,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBTA42")
+		(at 219.71 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3c06757-a7b8-4102-8cd5-a59abf5fa3bd")
+		(property "Reference" "Q14"
+			(at 224.79 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBTA42"
+			(at 209.804 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+			(at 224.79 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF"
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23"
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "86f7590f-0e9f-4a60-a19a-6b92abcd2fcd")
+		)
+		(pin "1"
+			(uuid "ffe45047-d81d-4087-a8df-217a91f50504")
+		)
+		(pin "2"
+			(uuid "b3330166-99d7-4260-963f-b2cc03f64b8b")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "74AHC595_1")
 		(lib_id "74xx:74AHC595")
-		(at 127 125.73 0)
+		(at 127 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3962,7 +6729,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb7d0b07-d8a8-4ec6-93f6-1d9443a24744")
 		(property "Reference" "U4"
-			(at 128.9559 109.22 0)
+			(at 128.9559 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +6738,7 @@
 			)
 		)
 		(property "Value" "74AHC595"
-			(at 128.9559 111.76 0)
+			(at 128.9559 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +6747,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 127 125.73 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +6756,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
-			(at 127 125.73 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +6765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 125.73 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +6831,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 117.9068 23.6728 0)
+		(at 117.9068 47.8028 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4074,7 +6841,7 @@
 		(fields_autoplaced yes)
 		(uuid "d10af530-1779-45bc-91a5-fb54690e4a3f")
 		(property "Reference" "#PWR012"
-			(at 117.9068 30.0228 0)
+			(at 117.9068 54.1528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +6850,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 117.9068 28.7528 0)
+			(at 117.9068 52.8828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +6859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.9068 23.6728 0)
+			(at 117.9068 47.8028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +6868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.9068 23.6728 0)
+			(at 117.9068 47.8028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +6877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 117.9068 23.6728 0)
+			(at 117.9068 47.8028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +6898,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 127 57.15 0)
+		(at 127 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +6907,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7acb034-3def-449c-8769-a283ad6f18b0")
 		(property "Reference" "#PWR09"
-			(at 127 63.5 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +6916,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 127 62.23 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +6925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 57.15 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +6934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 57.15 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +6943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 57.15 0)
+			(at 127 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +6964,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 62.23 90)
+		(at 58.42 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4206,7 +6973,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8c1a856-816f-4a67-9ccb-2eaeba627aa6")
 		(property "Reference" "C2"
-			(at 58.4263 57.15 90)
+			(at 58.4263 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +6981,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 58.4263 59.69 90)
+			(at 58.4263 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 62.23 0)
+			(at 58.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +6998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 62.23 0)
+			(at 58.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +7007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 62.23 0)
+			(at 58.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +7015,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 58.42 62.23 90)
+			(at 58.42 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,17 +7039,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 127 66.04 0)
+		(lib_id "power:GNDREF")
+		(at 199.39 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbb7257f-39b8-4acd-9073-9e90969cb055")
-		(property "Reference" "#PWR011"
-			(at 127 69.85 0)
+		(uuid "d8c39c20-aba8-4f82-826e-7f31067d8ab7")
+		(property "Reference" "#PWR023"
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,16 +7057,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 127 62.23 0)
+		(property "Value" "GNDREF"
+			(at 199.39 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 127 66.04 0)
+			(at 199.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 66.04 0)
+			(at 199.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +7085,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 66.04 0)
+			(at 199.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e373bd39-1ebf-41d3-8984-3452a2d7b6ab")
+		)
+		(instances
+			(project "test"
+				(path "/973dbd2e-46c6-4661-9481-685fb56ba1b4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 127 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb7257f-39b8-4acd-9073-9e90969cb055")
+		(property "Reference" "#PWR011"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +7171,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 127 152.4 0)
+		(at 127 285.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4347,7 +7180,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc71d929-65ee-4685-a8ea-a3c3d213099d")
 		(property "Reference" "#PWR018"
-			(at 127 156.21 0)
+			(at 127 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +7189,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 127 148.59 0)
+			(at 127 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +7197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 152.4 0)
+			(at 127 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +7206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 152.4 0)
+			(at 127 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +7215,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 152.4 0)
+			(at 127 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +7237,7 @@
 	(symbol
 		(lib_name "74AHC595_1")
 		(lib_id "74xx:74AHC595")
-		(at 127 39.37 0)
+		(at 127 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4413,7 +7246,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0dcca42-c046-4eb3-913c-120bd502d8df")
 		(property "Reference" "U2"
-			(at 128.9559 22.86 0)
+			(at 128.9559 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +7255,7 @@
 			)
 		)
 		(property "Value" "74AHC595"
-			(at 128.9559 25.4 0)
+			(at 128.9559 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +7264,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 127 39.37 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +7273,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf"
-			(at 127 39.37 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +7282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 39.37 0)
+			(at 127 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +7348,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 118.11 66.8528 0)
+		(at 118.11 124.0028 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4525,7 +7358,7 @@
 		(fields_autoplaced yes)
 		(uuid "f30d09d1-bbca-4ce8-be59-5891114a649b")
 		(property "Reference" "#PWR013"
-			(at 118.11 73.2028 0)
+			(at 118.11 130.3528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +7367,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 118.11 71.9328 0)
+			(at 118.11 129.0828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +7376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 66.8528 0)
+			(at 118.11 124.0028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +7385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 66.8528 0)
+			(at 118.11 124.0028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +7394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 66.8528 0)
+			(at 118.11 124.0028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +7415,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 127 100.33 0)
+		(at 127 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4591,7 +7424,7 @@
 		(fields_autoplaced yes)
 		(uuid "f451feef-6cc8-416f-aa8c-d5dd32741248")
 		(property "Reference" "#PWR08"
-			(at 127 106.68 0)
+			(at 127 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +7433,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 127 105.41 0)
+			(at 127 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +7442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 100.33 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +7451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 100.33 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +7460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 100.33 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

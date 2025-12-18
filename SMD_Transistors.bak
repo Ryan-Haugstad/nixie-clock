@@ -215,7 +215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23W_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 6.858 -5.842 0)
 			(effects
 				(font
