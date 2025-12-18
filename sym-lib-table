@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SMD_Transistors")(type "KiCad")(uri "${KICAD_DOCUMENTS_HOME}/KiCad/test/SMD_Transistors.kicad_sym")(options "")(descr ""))
+)
